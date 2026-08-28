@@ -15,8 +15,8 @@ Open source · self-hosted · no subscription — [agimate.io](https://agimate.i
 | --- | --- | --- |
 | [**agimate-backend**](https://github.com/AgiMateIo/agimate-backend) | Java · Spring Boot | The platform itself: agents, skills, connectors, channels, triggers and the agent loop |
 | [**agimate-frontend**](https://github.com/AgiMateIo/agimate-frontend) | Next.js · TypeScript | Web dashboard: assemble agents, wire them to channels, watch them work |
-| [**desktop**](https://github.com/AgiMateIo/desktop) | Python | Cross-platform tray agent: plugin triggers and tools on macOS, Windows and Linux |
-| [**android**](https://github.com/AgiMateIo/android) | Kotlin · Compose | Companion agent: trigger monitoring and action execution over WebSocket |
+| [**connector-desktop**](https://github.com/AgiMateIo/connector-desktop) | Python | Cross-platform tray agent: plugin triggers and tools on macOS, Windows and Linux |
+| [**connector-android**](https://github.com/AgiMateIo/connector-android) | Kotlin · Compose | Companion agent: trigger monitoring and action execution over WebSocket |
 | [**n8n-nodes-agimate**](https://github.com/AgiMateIo/n8n-nodes-agimate) | TypeScript | Community nodes for AgiMate connectors, devices and event triggers |
 
 ## How the pieces fit
