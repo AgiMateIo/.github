@@ -15,6 +15,7 @@ Open source · self-hosted · no subscription — [agimate.io](https://agimate.i
 | --- | --- | --- |
 | [**agimate-backend**](https://github.com/AgiMateIo/agimate-backend) | Java · Spring Boot | The platform itself: agents, skills, connectors, channels, triggers and the agent loop |
 | [**agimate-frontend**](https://github.com/AgiMateIo/agimate-frontend) | Next.js · TypeScript | Web dashboard: assemble agents, wire them to channels, watch them work |
+| [**agimate-chat-android**](https://github.com/AgiMateIo/agimate-chat-android) | Kotlin · Compose | Chat client: your agents as a contact list, live conversations and push |
 | [**connector-desktop**](https://github.com/AgiMateIo/connector-desktop) | Python | Cross-platform tray agent: plugin triggers and tools on macOS, Windows and Linux |
 | [**connector-android**](https://github.com/AgiMateIo/connector-android) | Kotlin · Compose | Companion agent: trigger monitoring and action execution over WebSocket |
 | [**n8n-nodes-agimate**](https://github.com/AgiMateIo/n8n-nodes-agimate) | TypeScript | Community nodes for AgiMate connectors, devices and event triggers |
@@ -22,7 +23,7 @@ Open source · self-hosted · no subscription — [agimate.io](https://agimate.i
 ## How the pieces fit
 
 The **backend** is the platform: it runs the agents and owns everything below. The **frontend**
-is where you assemble them and watch them work. **Skills** describe what an agent knows how to
-do. **Connectors** give it tools, event triggers and background jobs. **Devices** — the desktop
-and Android agents above — carry it beyond the browser. **n8n nodes** wire all of it into
-automations you already run.
+is where you assemble them and watch them work, and the **chat client** is where you simply talk
+to them. **Skills** describe what an agent knows how to do. **Connectors** give it tools, event
+triggers and background jobs. **Devices** — the desktop and Android connectors above — carry it
+beyond the browser. **n8n nodes** wire all of it into automations you already run.
