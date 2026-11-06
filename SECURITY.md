@@ -10,6 +10,9 @@ Report it privately through **GitHub private vulnerability reporting**: open the
 tab of the affected repository and choose *Report a vulnerability*. The report, the
 discussion and the fix all stay in one place, and stay private until we publish.
 
+You can also email **agimate@mail.ru**, for example when GitHub is not convenient or when the
+report concerns the organisation rather than one repository.
+
 A useful report contains the affected repository and version or commit, what an attacker can
 achieve, and the steps to reproduce it. Proof-of-concept code is welcome. If you are not sure
 whether what you found is a real problem, send it anyway — deciding that is our job, not
